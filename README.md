@@ -17,10 +17,10 @@ This repo contains the easy step by step configuration for stting up arch on you
 You can download the latest image from the official site → https://archlinux.org/download/
 
 Scroll down to this section and select your region if available or in case  u want to keep it simple just use one of the global links as they work the same and only differ in download speed at most.
-<img width="1643" height="1042" alt="image" src="https://github.com/user-attachments/assets/3fa74037-d71a-43c8-bed0-97f3e7c139e6" />
+<img width="1643" height="1042" alt="Screenshot 2026-06-06 211239" src="https://github.com/user-attachments/assets/701b8608-14c0-4adb-860f-3825f6e34a1c" />
 
 After clicking on one of the links (i used  → https://geo.mirror.pkgbuild.com/iso/2026.06.01/) select the option which suits you ( i used archlinux-2026.06.01-x86_64.iso  as it suited my purpose and is also one of the most widely used forms.)
-<img width="850" height="358" alt="image" src="https://github.com/user-attachments/assets/29fd12d1-9ba2-4e08-a56e-41c27f9890d5" /> 
+<img width="850" height="358" alt="Screenshot 2026-06-06 211441" src="https://github.com/user-attachments/assets/eeb6b9ab-b604-4fa5-8a7b-a06611030e56" />
 
 Now wait for the installation and move on to creating a bootable USB.
 
@@ -37,17 +37,19 @@ For this step u need to disable SecureBoot (since arch ISO doesn't support it.)
 Boot the USB via your boot menu (can be accessed by pressing f2 or f12 when u start your device). Then select the USB with loaded iso at bootloader. You will be greeted with the following screen. Select the desired option (first in most cases).
 
 
-<img width="958" height="759" alt="image" src="https://github.com/user-attachments/assets/eadd6abe-787b-4597-a649-f0bc9dc55b3c" />
+<img width="958" height="759" alt="Screenshot 2026-06-06 221600" src="https://github.com/user-attachments/assets/c8299a5e-c43f-4661-af99-9bb4794eaaca" />
 
 
 Give it some time and you'll reach the following screen
-<img width="852" height="533" alt="image" src="https://github.com/user-attachments/assets/a6fb0e08-e135-47fc-abcf-5332e07b0aa9" />
+<img width="852" height="533" alt="Screenshot 2026-06-06 222025" src="https://github.com/user-attachments/assets/242ac48a-841f-406d-920d-f785d32f7391" />
 
 # Connect to Network 
 Since you won't have access to internet at this point arch provides u with some default ways.
 
 ```
-iwctl  #enter interactive mode
+iwctl  #enter interactive mode (used for wifi)
+#mmcli (used for mobile broadband modems)
+#Ethernet , WLAN and WWAN are connected automatically
 device list
 device wlan0 connect "YourWifiName"  #Replace with your adapter/name
 exit
