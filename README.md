@@ -1,3 +1,4 @@
+[If u want to skip to post install setup → https://github.com/ZoroXoXo/ARCH_LINUX-POST_INSTALL_SETUP- ]
 # INITIAL SETUP
 This repo contains the easy step by step configuration for setting up arch on your single/dual boot setup.It contains the following main steps:
 
@@ -147,5 +148,17 @@ Congratulations you are all setup for arch , u can now remove the usb if you are
 <img width="1279" height="793" alt="Screenshot 2026-06-07 001001" src="https://github.com/user-attachments/assets/7d1d251a-9cbf-4fec-8c1b-cc377206a69b" />
 
 You are now free to create your own setups using the various available desktop environments , managers etc.
+# POST INSTALL SETUP
+Includes following key aspects:-
+ 
+ 1. Update system
+ 2. User setup
+ 3. Desktop environment
+ 4. Networking
+ 5. Drivers
+ 6. Usefull tools
+
+[If u want to skip to post install setup → https://github.com/ZoroXoXo/ARCH_LINUX-POST_INSTALL_SETUP- ]
+
 
 
