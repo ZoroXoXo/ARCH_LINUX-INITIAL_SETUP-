@@ -1,0 +1,18 @@
+ARCH_LINUX-INITIAL_SETUP/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── assets/
+│   └── images/
+│       ├── arch-download-page.png
+│       ├── arch-mirror-page.png
+│       ├── arch-boot-menu.png
+│       └── arch-live-environment.png
+├── docs/
+│   ├── guided-install.md
+│   ├── manual-install.md
+│   ├── dual-boot-notes.md
+│   └── troubleshooting.md
+└── scripts/
+    ├── preinstall.sh
+    └── manual-install-notes.sh
